@@ -24,7 +24,7 @@ document.getElementById("submit").onclick = function(){
     }
     else
     {   
-        f.setAttribute('action',"/completed.html");
+        f.setAttribute('action',document.URL+"/completed.html");
     }
     return true;
 }
