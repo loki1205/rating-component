@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <div class="card">
+      <div class="circle-star">
+        <img class="star" alt="review-star" src="images/icon-star.svg">
+      </div>
+      <div class="text-section">
+        <p id="check" class="heading">How did we do?</p>
+        <p class="text">Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!</p>
+      </div>
+      <div class="number-section">
+        <div class="number">1</div>
+        <div class="number">2</div>
+        <div class="number">3</div>
+        <div class="number">4</div>
+        <div class="number">5</div>
+      </div>
+      <form id="frm" onsubmit="return check()">
+        <button id="submit" class="btn" type="submit">SUBMIT</button>
+      </form>
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
