@@ -24,7 +24,7 @@ document.getElementById("submit").onclick = function(){
     }
     else
     {   
-        f.setAttribute('action',document.URL+"/completed.html");
+        f.setAttribute('action',/rating-component/completed.html");
     }
     return true;
 }
